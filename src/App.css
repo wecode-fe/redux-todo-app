@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.task{
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task p{
+  font-size: larger;
+  color: rgb(169, 20, 20);
+  border: 0px;
+  padding: 0.5rem;
+}
+.add-task input{
+  font-size: larger;
+  margin:1rem;
+}
+
+.add-task button{
+  font-size: larger;
+  color:rgb(54, 52, 52)
+}
+
+.success{
+  color: green;
+}
+
+.done{
+  text-decoration: line-through;
+}
